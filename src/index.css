@@ -1,0 +1,28 @@
+@import 'tailwindcss';
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #f8fafc;
+  color: #0f172a;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+@media print {
+  body {
+    background: #fff;
+  }
+  header,
+  aside,
+  .print\:hidden {
+    display: none !important;
+  }
+  main {
+    padding: 0 !important;
+  }
+}
