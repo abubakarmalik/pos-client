@@ -5,7 +5,7 @@ const AuthLayout = () => (
     <div className="w-full max-w-md rounded-2xl bg-white p-8 shadow">
       <div className="mb-6 text-center">
         <h1 className="text-2xl font-semibold text-slate-800">
-          Abubakar's Pos
+          Shaheen Corporate
         </h1>
         <p className="text-sm text-slate-500">Sign in to continue</p>
       </div>
